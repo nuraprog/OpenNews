@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+  top: 0;
+  left: 0;
+  // right: 0;
+  // bottom: 0;
+}
+
+* {
+  font-size: 18px;
+  font-family: "Inter", sans-serif;
+}
+
+.serif {
+  font-family: "Libre Baskerville", serif;
+}
+
+small {
+  font-size: 16px;
+}
+
+strong {
+  font-size: inherit;
+}
+
+span {
+  font-size: inherit;
+}
+
+h1 {
+  font-size: 55px;
+}
+
+h2 {
+  font-size: 44px;
+}
+
+h3 {
+  font-size: 35px;
+}
+
+h4 {
+  font-size: 28px;
+}
+
+h5 {
+  font-size: 22px;
+}
+
+h6 {
+  font-size: 20px;
+}
+
+.container {
+  max-width: 1233px;
+  margin: 0 auto;
+  padding: 0px 16px;
+}
